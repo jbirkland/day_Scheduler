@@ -49,30 +49,27 @@ var monthDay = { weekday: "long", month: "long", day: "numeric" };
 $("#currentDay").text(todaysDate.toLocaleDateString(undefined, monthDay));
 function changeColor() {
     var timeTracker = new Date().getHours();
-         function isElementPast(i, timeblockEl) {
+         function pastElement(i, timeblockEl) {
             return i + 9 < timeTracker;
          }
-        function isElementPresent(i, timeblockEl) {
+        function presentElement(i, timeblockEl) {
             return i + 9 === timeTracker;
          }
-        function isElementFuture(i, timeblockEl) {
+        function futureElement(i, timeblockEl) {
             return i + 9 > timeTracker;
         }
         $(".time-block")
-            .filter(isElementPast)
+            .filter(pastElement)
             .addClass("past")
             .removeClass("present future");
         $(".time-block")
-            .filter(isElementPresent)
+            .filter(presentElement)
             .addClass("present")
             .removeClass("past future");
         $(".time-block")
-            .filter(isElementFuture)
+            .filter(futureElement)
             .addClass("future")
             .removeClass("present past");
 }
 changeColor();
 setInterval(changeColor, 1000);
-// setInterval( fn , miliseconds )
-
-// for (var i = 0; i < myVariable; index++) 
