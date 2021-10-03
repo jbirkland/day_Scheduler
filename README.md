@@ -10,6 +10,7 @@ Here is the screenshot file path to my webpage.
 day_Scheduler/assets/images/screenshot.png
 
 
+![screenshot](https://user-images.githubusercontent.com/87788419/135762100-2fce0192-2d4d-4f65-81ee-c7624e9fc797.png)
 
 
 ## Link to the Deployed Page
