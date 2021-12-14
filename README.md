@@ -1,12 +1,10 @@
 # day_Scheduler
-# 05 Third-Party APIs: Work Day Scheduler
-
-## Ojective
-Create a calendar application that allows user's to save events for an hour by hour schedule planner. The app will feature dynamically updated HTML and CSS run with jQuery. Time of day must be displayed at top of app. Time blocks must be color coded and update with the current time of day. The colors will represent past, present and future. Once text is entered into the scheduler there is an option to save. Upon an item being saved it must save to local storage and re appear in the browser once refreshed as to save the schedule for the user.
+# Description
+Create a calendar application that allows user's to save events for an hour by hour schedule planner. The app will feature dynamically updated HTML and CSS run with jQuery. Time of day displayed at top of app. Once text is entered into the scheduler there is an option to save. Upon an item being saved it is saved to local storage and re appears in the browser once refreshed.
 
 
 ### Screen Shot
-Here is the screenshot file path to my webpage. 
+ 
 day_Scheduler/assets/images/screenshot.png
 
 
