@@ -1,6 +1,6 @@
 # day_Scheduler
 # Description
-Create a calendar application that allows user's to save events for an hour by hour schedule planner. The app will feature dynamically updated HTML and CSS run with jQuery. Time of day displayed at top of app. Once text is entered into the scheduler there is an option to save. Upon an item being saved it is saved to local storage and re appears in the browser once refreshed.
+Calendar application that allows user's to save events for an hour by hour schedule planner. The app will feature dynamically updated HTML and CSS run with jQuery. Time of day displayed at top of app. Once text is entered into the scheduler there is an option to save. Upon an item being saved it is saved to local storage and re appears in the browser once refreshed.
 
 
 ### Screen Shot
